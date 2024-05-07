@@ -1,0 +1,53 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+nav{
+
+    display: flex;
+    gap: 40px;
+    background-color: blueviolet;
+    color: white;
+}
+li{
+    list-style: none;
+    color: white;
+}
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+
+}
+.red{
+    background-color: red;
+    color: white;
+}
+
+form {
+    background: #000;
+    margin: 20px auto;
+    max-width: 400px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  .input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+  }
